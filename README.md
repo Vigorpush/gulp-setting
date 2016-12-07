@@ -2,8 +2,13 @@
 Personal setting for the Gulp. 
 
 ## How to use it
+
+Download the source Code in Master Branch	
+Follow the instruction in Gulpfile.js `Comment`	
+
 ### Install Gulp 
-	npm install -g gulp  	Install Gulp Globel
+	Install Gulp Globel
+	```npm install -g gulp```  	
 	npm install gulp		Install Gulp in Current project
 	npm install gulp --save-dev 
 ### Install the 'Plugins' for Gulp 
@@ -35,8 +40,7 @@ Personal setting for the Gulp.
 	????
 	ruby node.js git chrome livereload
 	
-	###
-	????
+### Install Programming Language	
 	SASS (ruby)
 		$ gem sources --remove https://rubygems.org/
 		$ gem sources -a https://ruby.taobao.org/ 
@@ -45,26 +49,24 @@ Personal setting for the Gulp.
 		*** CURRENT SOURCES ***
 
 		https://ruby.taobao.org
-		# ????? ruby.taobao.org
-		$ gem install sass
+		# Make sure it just contain "ruby.taobao.org"
+		$ gem install sass `//Install the SASS`
+		
 		http://www.ruanyifeng.com/blog/2012/06/sass.html
 	compass (ruby)
+### Install compass
 	gem install compass
 		http://www.ruanyifeng.com/blog/2012/11/compass.html
 		https://segmentfault.com/a/1190000004190261
-	cd project Find the location
-	gulp code 	Start to code
+	
+
+
+
 	npm install http-server (-g)
 		http-server	Enble the local server
 	
 	http://localhost:8080/index.html
 	http://YOUR_IP:8081/
-
-Download the source Code in Master Branch	
-Follow the instruction in Gulpfile.js `Comment`	
-
-### Gulpfile
-Location : Gulpfile
 
 ### Mapping
 Location : Maps Folder
@@ -74,3 +76,8 @@ Setting by CSS file
 Environment : Chrome
 If you are in China, Drag the livereload.crx into Chrome. 
 If you are not in China, Download this Extension on chrome web store
+
+
+### Run gulp
+	cd project `Find the location`
+	gulp code 	`Start to coding`
