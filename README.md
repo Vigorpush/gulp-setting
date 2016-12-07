@@ -8,9 +8,10 @@ Follow the instruction in Gulpfile.js `Comment`
 
 ### Install Gulp 
 	Install Gulp Globel
-	```npm install -g gulp```  	
-	npm install gulp		Install Gulp in Current project
-	npm install gulp --save-dev 
+		npm install -g gulp
+	Install Gulp in Current project		
+		npm install gulp		
+		npm install gulp --save-dev 
 ### Install the 'Plugins' for Gulp 
 	npm install gulp-imagemin (This one is very slow)
 	gulp-ruby-sass gulp-minify-css
@@ -21,23 +22,21 @@ Follow the instruction in Gulpfile.js `Comment`
 	gulp-jscs
 ### Fixing the speed issue
 	1.Change the config setting
-
-	npm config set registry http://registry.cnpmjs.org  
-	npm info underscore
+		npm config set registry http://registry.cnpmjs.org  
+		npm info underscore
 	If the setting is right, it will shows some response
 
 	2.Command Line
-
-	npm --registry http://registry.cnpmjs.org info underscore
+		npm --registry http://registry.cnpmjs.org info underscore
 	3.edit node_modules\npm.npmrc, by adding following Code.
-
+	
 	registry = http://registry.cnpmjs.org
-	If the npm address is does not work, then use taobao's npm, which is stable.
+		If the npm address is does not work, then use taobao's npm, which is stable.
 
 	TaoBao npm :https://registry.npm.taobao.org
 	
-	###
-	????
+### Get the Livereload works
+	
 	ruby node.js git chrome livereload
 	
 ### Install Programming Language	
@@ -52,16 +51,17 @@ Follow the instruction in Gulpfile.js `Comment`
 		# Make sure it just contain "ruby.taobao.org"
 		$ gem install sass `//Install the SASS`
 		
-		http://www.ruanyifeng.com/blog/2012/06/sass.html
-	compass (ruby)
+	Additional Reading
+		http://www.ruanyifeng.com/blog/2012/06/sass.html `Chinese Website`
+		
 ### Install compass
 	gem install compass
-		http://www.ruanyifeng.com/blog/2012/11/compass.html
-		https://segmentfault.com/a/1190000004190261
 	
+	Additional Reading
+		http://www.ruanyifeng.com/blog/2012/11/compass.html `Chinese Website`
+		https://segmentfault.com/a/1190000004190261 `Chinese Website`
 
-
-
+### Install http=server 
 	npm install http-server (-g)
 		http-server	Enble the local server
 	
