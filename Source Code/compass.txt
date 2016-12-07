@@ -1,0 +1,116 @@
+//重置格式
+
+//compass用法 	http://www.th7.cn/web/html-css/201411/67314.shtml
+//sprites用法	http://www.w3ctech.com/topic/620
+//sass用法		http://www.ruanyifeng.com/blog/2012/06/sass.html
+
+/////////
+@import"compass/reset";
+@import"compass/css3";
+
+
+.tet{
+	transform: rotate(45deg);
+}
+
+body{
+
+	transition: color 2s;
+	
+}
+
+@import "compass/utilities/general";
+.clearfix{
+    @include clearfix();
+}
+
+//http://www.w3ctech.com/topic/620
+@import "compass/utilities/sprites";
+@import "icon/*.png";
+
+.myicon{
+    width: 20px;
+    height: 20px;
+    @include all-icon-sprites;
+} 
+
+//changing color in different mode
+@import "compass/typography";
+a{
+    @include link-colors(#00c, #0cc, #c0c, #ccc, #cc0);
+}
+
+//border-radius setting
+.rounded{
+    @include border-radius(5px);
+}
+
+
+@import "compass/layout";
+.footer{
+	@include sticky-footer(54px);
+}
+
+$side:left;
+$main-color:blue;
+.test1{
+	color:$main-color;
+}
+
+body{
+	width:1200px*2;
+	bg-color:$main-color;
+	.content{
+		background-color:$main-color;
+			p{
+				border:{
+					color:red;
+				}
+			}
+	}
+}
+/*
+lighten(#cc3, 10%)  #d6d65c
+darken(#cc3, 10%)  #a3a329
+grayscale(#cc3)  #808080
+complement(#cc3)  #33c
+*/
+
+.testbody{
+	bg:{
+		color:lighten(red,10%);
+	}
+}
+
+a{
+	&:hover{
+		color:red;
+	}
+}
+
+.class1{
+	border:1px;
+}
+.class2{
+	@extend .class1;
+	color:red;
+}
+
+@mixin mixin-test{
+	left:10px;
+}
+
+#div_test{
+	@include mixin-test;
+}
+
+@mixin mixin_test1($value:10px){
+	
+	width:$value;
+
+}
+
+#div_test1{
+
+	@include mixin_test1(20px);
+}

@@ -1,0 +1,46 @@
+@import "compass/reset";
+
+@import "compass/css3";
+
+
+@import "compass/layout";
+
+
+@import "compass/utilities";
+
+.clearfix{
+	@include clearfix();
+}
+
+.tet{
+	transform: rotate(45deg);
+}
+
+body{
+
+	transition: color 2s;
+	
+}
+
+$main-color:red;
+body{
+	color:lighten($main-color,10%);
+}
+
+div{
+	h1{
+		
+		p{
+			color:red;
+			a{
+				&:hover{
+					color:darken($main-color,5%)
+				}
+				
+			}
+		
+		}
+	
+	}
+
+}
