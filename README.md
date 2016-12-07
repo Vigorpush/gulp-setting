@@ -2,9 +2,17 @@
 Personal setting for the Gulp. 
 
 ## How to use it
-
 Download the source Code in Master Branch	
-Follow the instruction in Gulpfile.js `Comment`	
+	Follow the instruction in Gulpfile.js `Comment`, if you could read Chinese.	
+
+### Mapping Files
+Location : Maps Folder
+	Setting by CSS file 
+
+### LiveReload Extensions 
+Environment : Chrome
+	If you are in China, Drag the livereload.crx into Chrome. 
+	If you are not in China, Download this Extension on chrome web store
 
 ### Install Gulp 
 	Install Gulp Globel
@@ -36,7 +44,6 @@ Follow the instruction in Gulpfile.js `Comment`
 	TaoBao npm :https://registry.npm.taobao.org
 	
 ### Get the Livereload works
-	
 	ruby node.js git chrome livereload
 	
 ### Install Programming Language	
@@ -67,16 +74,6 @@ Follow the instruction in Gulpfile.js `Comment`
 	
 	http://localhost:8080/index.html
 	http://YOUR_IP:8081/
-
-### Mapping
-Location : Maps Folder
-Setting by CSS file 
-
-### LiveReload Extensions 
-Environment : Chrome
-If you are in China, Drag the livereload.crx into Chrome. 
-If you are not in China, Download this Extension on chrome web store
-
 
 ### Run gulp
 	cd project `Find the location`
