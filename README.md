@@ -11,8 +11,8 @@ Location : Maps Folder
 
 ### LiveReload Extensions 
 Environment : Chrome
-	If you are in China, Drag the livereload.crx into Chrome. 
-	If you are not in China, Download this Extension on chrome web store
+	If you are in China, Drag the livereload.crx into Chrome. 	
+	If you are not in China, Download this Extension on chrome web store	
 
 ### Install Gulp 
 	Install Gulp Globel
@@ -20,6 +20,7 @@ Environment : Chrome
 	Install Gulp in Current project		
 		npm install gulp		
 		npm install gulp --save-dev 
+		
 ### Install the 'Plugins' for Gulp 
 	npm install gulp-imagemin (This one is very slow)
 	gulp-ruby-sass gulp-minify-css
