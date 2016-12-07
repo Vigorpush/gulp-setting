@@ -10,7 +10,7 @@ Location : Maps Folder
 	Setting by CSS file 
 
 ### LiveReload Extensions 
-Environment : Chrome
+Environment : Chrome	
 	If you are in China, Drag the livereload.crx into Chrome. 	
 	If you are not in China, Download this Extension on chrome web store	
 
