@@ -39,10 +39,10 @@ Environment : Chrome
 		npm --registry http://registry.cnpmjs.org info underscore
 	3. edit node_modules\npm.npmrc, by adding following Code.
 	
-	registry = http://registry.cnpmjs.org
-		If the npm address is does not work, then use taobao's npm, which is stable.
+		registry = http://registry.cnpmjs.org
+			If the npm address is does not work, then use taobao's npm, which is stable.
 
-	TaoBao npm :https://registry.npm.taobao.org
+		TaoBao npm :https://registry.npm.taobao.org
 	
 ### Get the Livereload works
 	ruby node.js git chrome livereload
