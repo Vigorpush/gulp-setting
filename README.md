@@ -30,14 +30,14 @@ Environment : Chrome
 	gulp-livereload gulp-webserver --save-dev
 	gulp-jscs
 ### Fixing the speed issue
-	1.Change the config setting
+	1. Change the config setting
 		npm config set registry http://registry.cnpmjs.org  
 		npm info underscore
 	If the setting is right, it will shows some response
 
-	2.Command Line
+	2. Command Line
 		npm --registry http://registry.cnpmjs.org info underscore
-	3.edit node_modules\npm.npmrc, by adding following Code.
+	3. edit node_modules\npm.npmrc, by adding following Code.
 	
 	registry = http://registry.cnpmjs.org
 		If the npm address is does not work, then use taobao's npm, which is stable.
